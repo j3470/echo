@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: echo_jjt
+  main:
+    banner-mode: off
+
+server:
+  port: 8094
+
+logging:
+  level:
+    com:
+      example:
+        echo_jjt:
+          TestController: info
+
+
+
+
+
+
